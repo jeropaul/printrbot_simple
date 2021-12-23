@@ -1,7 +1,7 @@
-# Printrbot Simple Metal 1405
+# Printrbot Simple Metal
 I purchased this printer in 2015 with the heated bed option.
 
-Notes: Aluminium heated bed has quite a few high and low spots > 2 hundreads of a mm out. So I print first layer at 0.3 of a mm.
+Notes: Aluminium heated bed has quite a few high and low spots > 2 hundreds of a mm out. So I print first layer at 0.3 of a mm.
 
 ## Board 
 
@@ -17,7 +17,7 @@ Useful links:
 
 ## Power supply
 
-[Currently using semi-modular power supply](https://www.amazon.com.au/gp/product/B08BX65LVY/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) being honest I probably should have forked out and purchased a fully modular power supply but this works. I did have another powersupply but managed to loose it (moving home a few times)
+[Currently using a semi-modular power supply](https://www.amazon.com.au/gp/product/B08BX65LVY/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) being honest I probably should have forked out and purchased a fully modular power supply but this works.
 
 I haven't manually jumped the power supply to get it to start as I have an [ATX breakout board](https://www.kickstarter.com/projects/141080940/atx-breakout-board-for-all-pc-power-supplys?ref=profile_created) that I purchased through kickstarter. 
 
