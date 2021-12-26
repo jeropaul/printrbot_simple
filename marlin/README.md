@@ -8,9 +8,11 @@ This folder contains configuration files originally downloaded from https://gith
 ## TODO
 
 - [ ] Update the 2.0.1 configuration for 2.0.9.3
-- [ ] Ensure that the bed size is correct
-- [ ] Determine if I need to invert the y-axis and if so do it.
-- [ ] End stops... anything required there?
-- [ ] Ensure that the z-axis is setup for the 4-stop 8mm lead screw
-
+  - [x] Configuration.h
+  - Configuration_adv.h
+- [ ] Update `// FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
+ #endif // PIDTEMPBED`
+  - DEFAULT_bedKp
+  - DEFAULT_bedKi
+  - DEFAULT_bedKd
 
