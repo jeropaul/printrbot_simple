@@ -10,13 +10,4 @@ Easiest on a windows computer but there is a guide on the reprap forums https://
 
 Yeah it sits where trying to download the latest firmware... Safe bet that path is not possible anymore.
 
-## TODO
-
-- [ ] Update the 2.0.1 configuration for 2.0.9.3
-  - [x] Configuration.h
-  - Configuration_adv.h
-- [ ] Update `// FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
- #endif // PIDTEMPBED`
-  - DEFAULT_bedKp
-  - DEFAULT_bedKi
-  - DEFAULT_bedKd
+So best bet is to get a winblows PC, install the Atmel updater (and JVM) and do it there. The details at [www.jdwallace.com](https://www.jdwallace.com/post/printrbot-simple-metal-marlin2) are spot on.
