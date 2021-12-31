@@ -5,7 +5,7 @@ Notes: Aluminium heated bed has quite a few high and low spots > 2 hundreds of a
 
 ## Board 
 
-currently a stock Rev F. I do plan on updating the firmware to a Marlin 2.0
+currently a Rev F printerbot board. Updated to Marlin 2.0.x using the details at jdwallace.com
 
 Useful links:
 - Board details - http://domoticx.com/mechanica-hardware-printrboard/
@@ -21,7 +21,7 @@ Useful links:
 
 I haven't manually jumped the power supply to get it to start as I have an [ATX breakout board](https://www.kickstarter.com/projects/141080940/atx-breakout-board-for-all-pc-power-supplys?ref=profile_created) that I purchased through kickstarter. 
 
-## Heated bed
+## Heated bed / Build plate
 
 Currently using the Printrbot supplied heated bed. However I have read good things about some of the removable build plates and have a [150x150 Spring Steel Sheet Build Plate](https://www.aliexpress.com/snapshot/0.html?orderId=8143475876268766) on order and I'm hoping to mount this on top of the existing bed.
 
