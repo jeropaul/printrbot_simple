@@ -1,8 +1,12 @@
 # Marlin configuration
 
+The hex file here is for a simple metal (152x152x152) with heated bed and an 8mm z-axis.  It also includes the auto-fan for when I upgrade from the Ubis 13 to 13s.
+
 The folder 2.0.9.3 contains configuration files downloaded from https://github.com/MarlinFirmware/Marlin/tree/2.0.9.3/Marlin
 
-This folder contains configuration files originally downloaded from https://github.com/Printrbot/printrboardmodernmarlin/releases which are based on the 2.0.1 release.
+This folder contains configuration files originally downloaded from https://github.com/Printrbot/printrboardmodernmarlin/releases which are based on the 2.0.1 
+
+I built the Configuration.h and Configuration_adv.h by diffing the 2.0.1 files with the reference 2.0.9.3 files and manually applying the changes. You can diff the files here to see what changed. The hex file was then built using the vscode marlin plugin.
 
 ## Loading firmware
 
