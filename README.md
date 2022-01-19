@@ -37,6 +37,8 @@ Other options of note: https://www.thingiverse.com/thing:2010572
 
 Currently still using the original UBIS 13 ceramic. Ubis 13s has been ordered and will be installed
 
+New fan for the hotend has been installed see [Installing automatic hotend](https://github.com/jeropaul/printrbot_simple/issues/1) for details
+
 useful links:
 - Installing an automatic fan 
   - https://www.jdwallace.com/post/printrbot-fan
