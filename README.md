@@ -1,7 +1,7 @@
 # Printrbot Simple Metal
 I purchased this printer in 2015 with the heated bed option.
 
-Notes: Aluminium heated bed has quite a few high and low spots > 2 hundreds of a mm out. So I print first layer at 0.3 of a mm.
+Notes: Aluminium heated bed has quite a few high and low spots > 2 tenths of a mm out. So I print first layer at 0.3 of a mm.
 
 ## Board 
 
@@ -35,9 +35,9 @@ Other options of note: https://www.thingiverse.com/thing:2010572
 
 ## Hotend 
 
-Currently still using the original UBIS 13 ceramic. Ubis 13s has been ordered and will be installed
+I've swtiched over to the UBIS 13s from the original UBIS 13 ceramic. Good things so far and enough new tips to last for (hopefully) many years.
 
-New fan for the hotend has been installed see [Installing automatic hotend](https://github.com/jeropaul/printrbot_simple/issues/1) for details
+New fan for the hotend has been installed see [Installing automatic hotend](https://github.com/jeropaul/printrbot_simple/issues/1) for details.
 
 useful links:
 - Installing an automatic fan 
