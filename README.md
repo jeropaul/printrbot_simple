@@ -47,6 +47,18 @@ useful links:
 - Fan adapter for ubis 13s - https://www.youmagine.com/designs/printrbot-hot-end-fan
 
 
+## Calibration guide for hotends height from bed
+
+The magnetic base and (or) the spring steel pei sheet messes with the bed probe so I had to massively change the z calibration.
+
+Note: These are for Marlin 2.0 
+
+M501 - Load / print config
+
+M851 - Z-2.2  (that was -0.6... so quite a difference)
+
+M500 - Save config
+
 ## Project information
 
 - How to design an automata - https://www.instructables.com/Design-of-Automata/
