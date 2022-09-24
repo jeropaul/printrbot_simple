@@ -59,6 +59,27 @@ M851 - Z-2.2  (that was -0.6... so quite a difference)
 
 M500 - Save config
 
+## Drivers for the WIFI dongle (rtl8188eu)
+
+So it looks like the gentleman that maintained http://downloads.fars-robotics.net/ gave up the ghost in late 2021 so no more pre-built drivers! good run though, amazing that he kept it up for something like 10 years. The internet is kept working on the back of people like that.
+
+Anyway to build it from source use the details at https://github.com/RPi-Distro/rpi-source#tp-link-tl-wn725n-version-2-lwfinger
+
+And as always be prepared to wait... 
+
+Than I needed to change the driver used by wpa_supplicant (I had to find that from [stack-exchange](https://raspberrypi.stackexchange.com/questions/116657/raspberry-pi-wifi-scan-working-but-cannot-connect-to-wifi)
+
+```
+sudo wpa_supplicant -i wlan0 -D wext -c /etc/wpa_supplicant/wpa_supplicant.conf -d
+```
+
+So to make this permanent we need to add the following to `/etc/dhcpcd.conf`
+
+```
+env ifwireless=1
+env wpa_supplicant_driver=wext
+```
+
 ## Project information
 
 - How to design an automata - https://www.instructables.com/Design-of-Automata/
